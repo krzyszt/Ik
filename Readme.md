@@ -1,3 +1,3 @@
 # Ik
 
-Restful User Interface for business applications with Ext JS 5. 
+Ext JS 5 Restful User Interface for business applications. 
