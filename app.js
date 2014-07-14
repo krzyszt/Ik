@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'Ik.Application',
     
-    autoCreateViewport: 'Ik.view.main.Main'
+    autoCreateViewport: 'Ik.view.main.MainView'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to Ik.Application. If you need to

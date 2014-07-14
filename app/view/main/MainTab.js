@@ -3,6 +3,6 @@ Ext.define('Ik.view.main.MainTab',{
 
 	xtype: 'ikMainTab',
 
-	controller: 'main'
+	controller: 'mainView'
 	
 });

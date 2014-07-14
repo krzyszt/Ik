@@ -1276,7 +1276,8 @@ Ext.Loader.addClassPathMappings({
   "Ext.util.StoreHolder": "../../../ext/src/util/StoreHolder.js",
   "Ext.ux.desktop.TrayClock": "../../../ext/src/ux/desktop/TaskBar.js",
   "ExtThemeNeptune": "../../../ext/packages/ext-theme-neptune/overrides",
-  "Ik": "../../app"
+  "Ik": "../../app",
+  "Ik.view.main.MainController": "../../app/view/main/MainViewController.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
   "Ext.AbstractManager": [],
@@ -2314,7 +2315,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
-  "Ik.controller.Main": [],
   "Ik.controller.Root": [],
   "Ik.model.CustomerModel": [],
   "Ik.store.CustomerStore": [],
@@ -2323,12 +2323,12 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ik.view.grid.CustomerGrid": [],
   "Ik.view.grid.CustomerGridController": [],
   "Ik.view.main.Dashboard": [],
-  "Ik.view.main.Main": [],
   "Ik.view.main.MainController": [],
   "Ik.view.main.MainHeader": [],
   "Ik.view.main.MainModel": [],
   "Ik.view.main.MainSidebar": [],
   "Ik.view.main.MainTab": [],
+  "Ik.view.main.MainView": [],
   "Ik.view.toolbar.GridToolbar": [],
   "Ik.view.toolbar.GridToolbarController": [],
   "Ik.view.toolbar.MainToolbar": []
@@ -3661,7 +3661,6 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
-  "Ik.controller.Main": [],
   "Ik.controller.Root": [],
   "Ik.model.CustomerModel": [],
   "Ik.store.CustomerStore": [],
@@ -3680,9 +3679,8 @@ Ext.ClassManager.addNameAliasMappings({
   "Ik.view.main.Dashboard": [
     "widget.ikDashboard"
   ],
-  "Ik.view.main.Main": [],
   "Ik.view.main.MainController": [
-    "controller.main"
+    "controller.mainView"
   ],
   "Ik.view.main.MainHeader": [
     "widget.ikMainHeader"
@@ -3696,6 +3694,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ik.view.main.MainTab": [
     "widget.ikMainTab"
   ],
+  "Ik.view.main.MainView": [],
   "Ik.view.toolbar.GridToolbar": [
     "widget.ikGridToolbar"
   ],

@@ -1,7 +1,7 @@
-Ext.define('Ik.view.main.Main', {
+Ext.define('Ik.view.main.MainView', {
    extend: 'Ext.container.Container',
    
-   controller: 'main',
+   controller: 'mainView',
    
    viewModel: {
       type: 'main'

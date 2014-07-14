@@ -20,7 +20,6 @@ Ext.define('Ik.Application', {
 
     controllers: [
         'Root'
-        // TODO: add controllers here
     ],
 
     stores: [

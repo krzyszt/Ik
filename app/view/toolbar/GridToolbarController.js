@@ -19,6 +19,7 @@ Ext.define('Ik.view.toolbar.GridToolbarController', {
       var widgetType = this.view.ikWidgetType;
       var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
       var tab = null;
+      var widgetName;
       
       /** Searching for an empty(without id) form(xtype="form") of a particaular widgetType(like 'Client')
        *  if exists set active if does not exist create new empty form
@@ -43,6 +44,7 @@ Ext.define('Ik.view.toolbar.GridToolbarController', {
       var widgetType = this.view.ikWidgetType;
       var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
       var tab = null;
+      var widgetName;
       var record = component.up('grid').getSelectionModel().getSelection()[0];
       
       /** Searching for an open(with id) form(xtype="form") of a particaular widgetType(like 'Client')
