@@ -2316,7 +2316,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
   "Ik.controller.Root": [],
-  "Ik.model.CustomerModel": [],
+  "Ik.model.BaseModel": [],
+  "Ik.model.BpartnerModel": [],
   "Ik.store.CustomerStore": [],
   "Ik.view.form.CustomerForm": [],
   "Ik.view.form.CustomerFormController": [],
@@ -3662,7 +3663,8 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
   "Ik.controller.Root": [],
-  "Ik.model.CustomerModel": [],
+  "Ik.model.BaseModel": [],
+  "Ik.model.BpartnerModel": [],
   "Ik.store.CustomerStore": [],
   "Ik.view.form.CustomerForm": [
     "widget.ikCustomerForm"

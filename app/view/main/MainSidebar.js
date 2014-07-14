@@ -31,6 +31,10 @@ Ext.define('Ik.view.main.MainSidebar', {
          iconCls: 'fa fa-user'
       },
       {
+         title: 'Customers',
+         iconCls: 'fa fa-users'
+      },
+      {
          title: 'Sales',
          iconCls: 'fa fa-credit-card'
       },
@@ -38,10 +42,7 @@ Ext.define('Ik.view.main.MainSidebar', {
          title: 'Purchasing',
          iconCls: 'fa fa-tag'
       },
-      {
-         title: 'Business Partners',
-         iconCls: 'fa fa-users'
-      },
+      
       {
          title: 'Inventory',
          iconCls: 'fa fa-cubes'
