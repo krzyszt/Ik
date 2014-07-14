@@ -2316,11 +2316,18 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ik.Application": [],
   "Ik.controller.Main": [],
   "Ik.controller.Root": [],
+  "Ik.view.grid.CustomerGrid": [],
+  "Ik.view.grid.CustomerGridController": [],
+  "Ik.view.main.Dashboard": [],
   "Ik.view.main.Main": [],
   "Ik.view.main.MainController": [],
+  "Ik.view.main.MainHeader": [],
   "Ik.view.main.MainModel": [],
-  "Ik.view.main.Test": [],
-  "Ik.view.main.TestController": []
+  "Ik.view.main.MainSidebar": [],
+  "Ik.view.main.MainTab": [],
+  "Ik.view.toolbar.GridToolbar": [],
+  "Ik.view.toolbar.GridToolbarController": [],
+  "Ik.view.toolbar.MainToolbar": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractManager": [],
@@ -3652,20 +3659,39 @@ Ext.ClassManager.addNameAliasMappings({
   "Ik.Application": [],
   "Ik.controller.Main": [],
   "Ik.controller.Root": [],
-  "Ik.view.main.Main": [
-    "widget.app-main"
+  "Ik.view.grid.CustomerGrid": [
+    "widget.ikCustomerGrid"
   ],
+  "Ik.view.grid.CustomerGridController": [
+    "controller.customerGrid"
+  ],
+  "Ik.view.main.Dashboard": [
+    "widget.ikDashboard"
+  ],
+  "Ik.view.main.Main": [],
   "Ik.view.main.MainController": [
     "controller.main"
+  ],
+  "Ik.view.main.MainHeader": [
+    "widget.ikMainHeader"
   ],
   "Ik.view.main.MainModel": [
     "viewmodel.main"
   ],
-  "Ik.view.main.Test": [
-    "widget.test"
+  "Ik.view.main.MainSidebar": [
+    "widget.ikMainSidebar"
   ],
-  "Ik.view.main.TestController": [
-    "controller.test"
+  "Ik.view.main.MainTab": [
+    "widget.ikMainTab"
+  ],
+  "Ik.view.toolbar.GridToolbar": [
+    "widget.ikGridToolbar"
+  ],
+  "Ik.view.toolbar.GridToolbarController": [
+    "controller.ikGridToolbar"
+  ],
+  "Ik.view.toolbar.MainToolbar": [
+    "widget.ikMainToolbar"
   ]
 });
 Ext.setVersion("ext", "5.0.0.970");
