@@ -17,7 +17,7 @@ Ext.define('Ik.view.toolbar.GridToolbarController', {
    },
    onNew: function(component, eOpts) {
       var widgetType = this.view.ikWidgetType;
-      var tabs = Ext.ComponentQuery.query('ik-maintab')[0];
+      var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
       var tab = null;
       
       /** Searching for an empty(without id) form(xtype="form") of a particaular widgetType(like 'Client')
@@ -41,7 +41,7 @@ Ext.define('Ik.view.toolbar.GridToolbarController', {
    },
    onEdit: function(component, eOpts) {
       var widgetType = this.view.ikWidgetType;
-      var tabs = Ext.ComponentQuery.query('ik-maintab')[0];
+      var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
       var tab = null;
       var record = component.up('grid').getSelectionModel().getSelection()[0];
       

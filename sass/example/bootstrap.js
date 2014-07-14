@@ -2316,6 +2316,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ik.Application": [],
   "Ik.controller.Main": [],
   "Ik.controller.Root": [],
+  "Ik.model.CustomerModel": [],
+  "Ik.store.CustomerStore": [],
+  "Ik.view.form.CustomerForm": [],
+  "Ik.view.form.CustomerFormController": [],
   "Ik.view.grid.CustomerGrid": [],
   "Ik.view.grid.CustomerGridController": [],
   "Ik.view.main.Dashboard": [],
@@ -3659,6 +3663,14 @@ Ext.ClassManager.addNameAliasMappings({
   "Ik.Application": [],
   "Ik.controller.Main": [],
   "Ik.controller.Root": [],
+  "Ik.model.CustomerModel": [],
+  "Ik.store.CustomerStore": [],
+  "Ik.view.form.CustomerForm": [
+    "widget.ikCustomerForm"
+  ],
+  "Ik.view.form.CustomerFormController": [
+    "controller.customerForm"
+  ],
   "Ik.view.grid.CustomerGrid": [
     "widget.ikCustomerGrid"
   ],
