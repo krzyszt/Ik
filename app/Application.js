@@ -9,11 +9,12 @@ Ext.define('Ik.Application', {
     name: 'Ik',
 
     views: [
-       'Ik.view.main.MainTab',
+        'Ik.view.main.MainTab',
         'Ik.view.main.MainHeader',
         'Ik.view.main.MainSidebar',
         'Ik.view.main.Dashboard',
-        'Ik.view.toolbar.MainToolbar'
+        'Ik.view.toolbar.MainToolbar',
+        'Ik.view.grid.CustomerGrid'
     ],
 
     controllers: [
@@ -22,7 +23,7 @@ Ext.define('Ik.Application', {
     ],
 
     stores: [
-        // TODO: add stores here
+        'Ik.store.CustomerStore'
     ],
     
     launch: function () {

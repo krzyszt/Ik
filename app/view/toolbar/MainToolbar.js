@@ -38,7 +38,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
             click: {
                element: 'el',
                fn: function() {
-                  var tabs = Ext.ComponentQuery.query('ikMaintab')[0];
+                  var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
                   var tab = Ext.ComponentQuery.query('ikCustomerGrid')[0];
                   if (!tab) {
                      tab = Ext.widget('ikCustomerGrid');
@@ -50,8 +50,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                }
             }
          }
-      },
-
+      }
    ]
 
 });
