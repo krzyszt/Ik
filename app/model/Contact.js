@@ -7,11 +7,11 @@ Ext.define('Ik.model.Contact', {
             type: 'int'
         },
         {
-            name: 'firstname',
+            name: 'firstName',
             type: 'string'
         },
         {
-            name: 'lastname',
+            name: 'lastName',
             type: 'string'
         },
         {
@@ -22,6 +22,14 @@ Ext.define('Ik.model.Contact', {
             name: 'partnerId',
             type: 'int',
             reference: 'Bpartner'
+        },
+        {
+           name: 'fullName',
+           persist: false,
+           depends: ['firstName', 'lastName'],
+           convert: function(v,rec){
+              return rec.get('firstName') + ' ' + rec.get('lastName');
+           }
         }
     ]   
 });

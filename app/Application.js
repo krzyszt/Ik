@@ -21,6 +21,7 @@ Ext.define('Ik.Application', {
         'Ik.view.grid.LeadGrid',
         'Ik.view.form.LeadForm',
         'Ik.view.grid.ContactGrid',
+        'Ik.view.form.ContactForm'
     ],
 
     controllers: [

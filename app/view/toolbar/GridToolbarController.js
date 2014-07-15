@@ -63,7 +63,7 @@ Ext.define('Ik.view.toolbar.GridToolbarController', {
          tab.getForm().loadRecord(record);
          tabs.add(tab);
          tabs.setActiveTab(tab);
-         tab.setTitle(widgetType + ': ' + tab.down('textfield[ikTitle="true"]').getValue());
+         tab.setTitle(widgetType + ': ' + tab.down('field[ikTitle="true"]').getValue());
       } else {
          tabs.setActiveTab(tab);
       }

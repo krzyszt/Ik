@@ -35,6 +35,7 @@ Ext.define('Ik.view.grid.ContactGridController', {
                var partnerId = record.get('partnerId');
                var partnerName = partnerStore.getById(partnerId).get('name');
                record.set('partnerName', partnerName);
+               record.commit();
             });
          }
       });

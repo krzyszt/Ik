@@ -20,8 +20,9 @@ Ext.define('Ik.view.grid.ContactGrid', {
          ],
          columns: [
             {text: 'Id', dataIndex: 'id', width: 40},
-            {text: 'First Name', dataIndex: 'firstname', flex: 1},
-            {text: 'Last Name', dataIndex: 'lastname', flex: 1},
+            {text: 'First Name', dataIndex: 'firstName', flex: 1},
+            {text: 'Last Name', dataIndex: 'lastName', flex: 1},
+            {text: 'Full Name', dataIndex: 'fullName', flex: 1},
             {text: 'Email', dataIndex: 'email', align: 'center', flex: 1},
             {text: 'Business Partner', dataIndex: 'partnerName', align: 'center', flex: 1}
          ]
