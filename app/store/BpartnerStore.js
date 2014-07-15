@@ -3,6 +3,5 @@ Ext.define('Ik.store.BpartnerStore', {
    
    model: 'Ik.model.Bpartner',
    
-   autoLoad: true
-   
+   storeId: 'Bpartner'
 });

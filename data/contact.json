@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "list": [
+        { "id": 1, "firstname": "John", "lastname": "Black", "email": "j.black@ik.com", "partnerId": 1},
+        { "id": 2, "firstname": "Adam", "lastname": "Novak", "email": "a.novak@ik.com", "partnerId": 1},
+        { "id": 3, "firstname": "Richard", "lastname": "Kent", "email": "r.kent@ik.com", "partnerId": 2},
+        { "id": 4, "firstname": "Ann", "lastname": "Smile", "email": "a.smile@ik.com", "partnerId": 2},
+        { "id": 5, "firstname": "Eve", "lastname": "Night", "email": "e.night@ik.com", "partnerId": 2}
+    ]
+}

@@ -15,14 +15,13 @@ Ext.define('Ik.model.Contact', {
             type: 'string'
         },
         {
-            name: 'clientId',
-            type: 'int',
-            reference: 'Bpartner'
+            name: 'email',
+            type: 'string'
         },
         {
-            name: 'contactFullname',
-            type: 'string'
+            name: 'partnerId',
+            type: 'int',
+            reference: 'Bpartner'
         }
-    ]
-   
+    ]   
 });

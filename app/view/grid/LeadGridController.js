@@ -10,7 +10,7 @@ Ext.define('Ik.view.grid.LeadGridController',{
    },
    
    onGridRender: function(component, eOpts){
-//      component.getStore().getSource().load();
+      component.getStore().getSource().load();
    }
    
 });
