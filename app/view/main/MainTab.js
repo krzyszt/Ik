@@ -1,8 +1,22 @@
-Ext.define('Ik.view.main.MainTab',{
-	extend: 'Ext.tab.Panel',
+Ext.define('Ik.view.main.MainTab', {
+   extend: 'Ext.tab.Panel',
+   xtype: 'ikMainTab',
+   controller: 'mainView',
+   initComponent: function() {
+      var me = this;
 
-	xtype: 'ikMainTab',
+      Ext.applyIf(me, {
+         tools:[
+            {
+               type: 'close',
+               tooltip: 'Close All Tabs',
+               callback: function(panel, tool, e){
+                  panel.removeAll();
+               }
+            } 
+         ]
+      });
 
-	controller: 'mainView'
-	
+      me.callParent(arguments);
+   }
 });
