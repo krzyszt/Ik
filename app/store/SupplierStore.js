@@ -7,7 +7,7 @@ Ext.define('Ik.store.SupplierStore', {
    
    filters: [
       {
-         property: 'issuplier',
+         property: 'issupplier',
          value: true
       }
    ]

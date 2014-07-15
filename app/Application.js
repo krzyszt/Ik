@@ -16,7 +16,8 @@ Ext.define('Ik.Application', {
         'Ik.view.toolbar.MainToolbar',
         'Ik.view.grid.CustomerGrid',
         'Ik.view.form.CustomerForm',
-        'Ik.view.grid.SupplierGrid'
+        'Ik.view.grid.SupplierGrid',
+        'Ik.view.form.SupplierForm'
     ],
 
     controllers: [

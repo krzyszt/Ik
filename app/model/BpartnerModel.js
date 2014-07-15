@@ -27,7 +27,7 @@ Ext.define('Ik.model.BpartnerModel', {
            type: 'boolean'
         },
         {
-           name: 'issuplier',
+           name: 'issupplier',
            type: 'boolean'
         }
     ]
