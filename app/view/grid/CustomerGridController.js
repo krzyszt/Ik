@@ -10,7 +10,7 @@ Ext.define('Ik.view.grid.CustomerGridController',{
    },
    
    onGridRender: function(component, eOpts){
-      component.getStore().load();
+//      component.getStore().getSource().load();
    }
    
 });
