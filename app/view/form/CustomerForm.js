@@ -35,6 +35,5 @@ Ext.define('Ik.view.form.CustomerForm', {
          name: 'status',
          fieldLabel: 'Status'
       }
-
    ]
 });

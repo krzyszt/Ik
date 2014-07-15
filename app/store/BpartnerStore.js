@@ -1,7 +1,7 @@
 Ext.define('Ik.store.BpartnerStore', {
    extend: 'Ext.data.Store',
    
-   model: 'Ik.model.BpartnerModel',
+   model: 'Ik.model.Bpartner',
    
    autoLoad: true
    

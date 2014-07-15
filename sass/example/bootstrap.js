@@ -2316,13 +2316,25 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
   "Ik.controller.Root": [],
-  "Ik.model.BaseModel": [],
-  "Ik.model.BpartnerModel": [],
+  "Ik.model.Base": [],
+  "Ik.model.Bpartner": [],
+  "Ik.model.Contact": [],
+  "Ik.store.BpartnerStore": [],
   "Ik.store.CustomerStore": [],
+  "Ik.store.LeadStore": [],
+  "Ik.store.SupplierStore": [],
   "Ik.view.form.CustomerForm": [],
   "Ik.view.form.CustomerFormController": [],
+  "Ik.view.form.LeadForm": [],
+  "Ik.view.form.LeadFormController": [],
+  "Ik.view.form.SupplierForm": [],
+  "Ik.view.form.SupplierFormController": [],
   "Ik.view.grid.CustomerGrid": [],
   "Ik.view.grid.CustomerGridController": [],
+  "Ik.view.grid.LeadGrid": [],
+  "Ik.view.grid.LeadGridController": [],
+  "Ik.view.grid.SupplierGrid": [],
+  "Ik.view.grid.SupplierGridController": [],
   "Ik.view.main.Dashboard": [],
   "Ik.view.main.MainController": [],
   "Ik.view.main.MainHeader": [],
@@ -3663,20 +3675,48 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "Ik.Application": [],
   "Ik.controller.Root": [],
-  "Ik.model.BaseModel": [],
-  "Ik.model.BpartnerModel": [],
+  "Ik.model.Base": [],
+  "Ik.model.Bpartner": [],
+  "Ik.model.Contact": [],
+  "Ik.store.BpartnerStore": [],
   "Ik.store.CustomerStore": [],
+  "Ik.store.LeadStore": [],
+  "Ik.store.SupplierStore": [],
   "Ik.view.form.CustomerForm": [
     "widget.ikCustomerForm"
   ],
   "Ik.view.form.CustomerFormController": [
     "controller.customerForm"
   ],
+  "Ik.view.form.LeadForm": [
+    "widget.ikLeadForm"
+  ],
+  "Ik.view.form.LeadFormController": [
+    "controller.leadForm"
+  ],
+  "Ik.view.form.SupplierForm": [
+    "widget.ikSupplierForm"
+  ],
+  "Ik.view.form.SupplierFormController": [
+    "controller.supplierForm"
+  ],
   "Ik.view.grid.CustomerGrid": [
     "widget.ikCustomerGrid"
   ],
   "Ik.view.grid.CustomerGridController": [
     "controller.customerGrid"
+  ],
+  "Ik.view.grid.LeadGrid": [
+    "widget.ikLeadGrid"
+  ],
+  "Ik.view.grid.LeadGridController": [
+    "controller.leadGrid"
+  ],
+  "Ik.view.grid.SupplierGrid": [
+    "widget.ikSupplierGrid"
+  ],
+  "Ik.view.grid.SupplierGridController": [
+    "controller.supplierGrid"
   ],
   "Ik.view.main.Dashboard": [
     "widget.ikDashboard"

@@ -1,4 +1,4 @@
-Ext.define('Ik.model.BaseModel', {
+Ext.define('Ik.model.Base', {
    extend: 'Ext.data.Model',
    schema: {
       namespace: 'Ik.model',

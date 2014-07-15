@@ -1,7 +1,7 @@
 Ext.define('Ik.store.LeadStore', {
    extend: 'Ext.data.ChainedStore',
    
-   model: 'Ik.model.BpartnerModel',
+   model: 'Ik.model.Bpartner',
    
    source: 'Ik.store.BpartnerStore',
    

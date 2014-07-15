@@ -1,5 +1,5 @@
-Ext.define('Ik.model.BpartnerModel', {
-   extend: 'Ik.model.BaseModel',
+Ext.define('Ik.model.Bpartner', {
+   extend: 'Ik.model.Base',
    
    fields: [
         {
@@ -28,6 +28,10 @@ Ext.define('Ik.model.BpartnerModel', {
         },
         {
            name: 'issupplier',
+           type: 'boolean'
+        },
+        {
+           name: 'islead',
            type: 'boolean'
         }
     ]
