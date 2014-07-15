@@ -33,6 +33,26 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
       },
       {
          xtype: 'container',
+         html: '<a href="#" style="color: #4c8fbd; font-size: 14px; text-decoration: none"><i class="fa fa-smile-o"></i><span> Leads</span></a>',
+         listeners: {
+            click: {
+               element: 'el',
+               fn: function() {
+                  var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
+                  var tab = Ext.ComponentQuery.query('ikLeadGrid')[0];
+                  if (!tab) {
+                     tab = Ext.widget('ikLeadGrid');
+                     tabs.add(tab);
+                     tabs.setActiveTab(tab);
+                  } else {
+                     tabs.setActiveTab(tab);
+                  }
+               }
+            }
+         }
+      },
+      {
+         xtype: 'container',
          html: '<a href="#" style="color: #4c8fbd; font-size: 14px; text-decoration: none"><i class="fa fa-group"></i><span> Customers</span></a>',
          listeners: {
             click: {
@@ -53,7 +73,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
       },
       {
          xtype: 'container',
-         html: '<a href="#" style="color: #4c8fbd; font-size: 14px; text-decoration: none"><i class="fa fa-group"></i><span> Suppliers</span></a>',
+         html: '<a href="#" style="color: #4c8fbd; font-size: 14px; text-decoration: none"><i class="fa fa-truck"></i><span> Suppliers</span></a>',
          listeners: {
             click: {
                element: 'el',
