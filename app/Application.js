@@ -15,7 +15,8 @@ Ext.define('Ik.Application', {
         'Ik.view.main.Dashboard',
         'Ik.view.toolbar.MainToolbar',
         'Ik.view.grid.CustomerGrid',
-        'Ik.view.form.CustomerForm'
+        'Ik.view.form.CustomerForm',
+        'Ik.view.grid.SupplierGrid'
     ],
 
     controllers: [
@@ -24,7 +25,8 @@ Ext.define('Ik.Application', {
 
     stores: [
         'Ik.store.BpartnerStore',
-        'Ik.store.CustomerStore'
+        'Ik.store.CustomerStore',
+        'Ik.store.SupplierStore'
     ],
     
     launch: function () {

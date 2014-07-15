@@ -50,6 +50,26 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                }
             }
          }
+      },
+      {
+         xtype: 'container',
+         html: '<a href="#" style="color: #4c8fbd; font-size: 14px; text-decoration: none"><i class="fa fa-group"></i><span> Suppliers</span></a>',
+         listeners: {
+            click: {
+               element: 'el',
+               fn: function() {
+                  var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
+                  var tab = Ext.ComponentQuery.query('ikSupplierGrid')[0];
+                  if (!tab) {
+                     tab = Ext.widget('ikSupplierGrid');
+                     tabs.add(tab);
+                     tabs.setActiveTab(tab);
+                  } else {
+                     tabs.setActiveTab(tab);
+                  }
+               }
+            }
+         }
       }
    ]
 

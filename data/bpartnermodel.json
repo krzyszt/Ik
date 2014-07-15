@@ -2,9 +2,9 @@
     "success": true,
     "list": [
         { "id": 1, "name": "New Modern Ltd", "typeName": "retailer", "status": "active", "iscustomer": false, "issuplier": true},
-        { "id": 2, "name": "Fabricon Ltd", "typeName": "retailer", "status": "active", "iscustomer": false, "issuplier": true},
-        { "id": 3, "name": "Vehicle Hire Ltd", "typeName": "retailer", "status": "active" , "iscustomer": true, "issuplier": true},
-        { "id": 4, "name": "Simple Ligth Ltd", "typeName": "retailer", "status": "inactive" , "iscustomer": true, "issuplier": true},
+        { "id": 2, "name": "Fabricon Ltd", "typeName": "retailer", "status": "active", "iscustomer": true, "issuplier": false},
+        { "id": 3, "name": "Vehicle Hire Ltd", "typeName": "retailer", "status": "active" , "iscustomer": true, "issuplier": false},
+        { "id": 4, "name": "Simple Ligth Ltd", "typeName": "retailer", "status": "inactive" , "iscustomer": true, "issuplier": false},
         { "id": 5, "name": "Render& Co Ltd", "typeName": "retailer", "status": "active" , "iscustomer": true, "issuplier": true},
         { "id": 6, "name": "TEST 1 Ltd", "typeName": "retailer", "status": "active" , "iscustomer": true, "issuplier": true},
         { "id": 7, "name": "TEST 2 Ltd", "typeName": "retailer", "status": "active" , "iscustomer": false, "issuplier": true},
