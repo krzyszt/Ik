@@ -1,9 +1,9 @@
-Ext.define('Ik.store.CustomerStore', {
+Ext.define('Ik.store.Customer', {
    extend: 'Ext.data.ChainedStore',
    
-   model: 'Ik.model.Bpartner',
+   model: 'Ik.model.Partner',
    
-   source: 'Ik.store.BpartnerStore',
+   source: 'Ik.store.Partner',
    
    filters: [
       {

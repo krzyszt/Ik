@@ -1,4 +1,4 @@
-Ext.define('Ik.model.Bpartner', {
+Ext.define('Ik.model.Partner', {
    extend: 'Ik.model.Base',
    
    fields: [

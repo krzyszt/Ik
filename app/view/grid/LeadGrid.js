@@ -5,7 +5,7 @@ Ext.define('Ik.view.grid.LeadGrid', {
    
    requires: 'Ik.view.grid.LeadGridController',
    
-   store: 'Ik.store.LeadStore',
+   store: 'Ik.store.Lead',
    
    controller: 'leadGrid',
    

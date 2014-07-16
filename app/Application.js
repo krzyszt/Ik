@@ -29,10 +29,10 @@ Ext.define('Ik.Application', {
     ],
 
     stores: [
-        'Ik.store.BpartnerStore',
-        'Ik.store.CustomerStore',
-        'Ik.store.SupplierStore',
-        'Ik.store.LeadStore',
+        'Ik.store.Partner',
+        'Ik.store.Customer',
+        'Ik.store.Supplier',
+        'Ik.store.Lead',
         'Ik.store.Contact'
     ],
     

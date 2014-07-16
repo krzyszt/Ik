@@ -2317,18 +2317,23 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ik.Application": [],
   "Ik.controller.Root": [],
   "Ik.model.Base": [],
-  "Ik.model.Bpartner": [],
   "Ik.model.Contact": [],
-  "Ik.store.BpartnerStore": [],
-  "Ik.store.CustomerStore": [],
-  "Ik.store.LeadStore": [],
-  "Ik.store.SupplierStore": [],
+  "Ik.model.Partner": [],
+  "Ik.store.Contact": [],
+  "Ik.store.Customer": [],
+  "Ik.store.Lead": [],
+  "Ik.store.Partner": [],
+  "Ik.store.Supplier": [],
+  "Ik.view.form.ContactForm": [],
+  "Ik.view.form.ContactFormController": [],
   "Ik.view.form.CustomerForm": [],
   "Ik.view.form.CustomerFormController": [],
   "Ik.view.form.LeadForm": [],
   "Ik.view.form.LeadFormController": [],
   "Ik.view.form.SupplierForm": [],
   "Ik.view.form.SupplierFormController": [],
+  "Ik.view.grid.ContactGrid": [],
+  "Ik.view.grid.ContactGridController": [],
   "Ik.view.grid.CustomerGrid": [],
   "Ik.view.grid.CustomerGridController": [],
   "Ik.view.grid.LeadGrid": [],
@@ -3676,12 +3681,19 @@ Ext.ClassManager.addNameAliasMappings({
   "Ik.Application": [],
   "Ik.controller.Root": [],
   "Ik.model.Base": [],
-  "Ik.model.Bpartner": [],
   "Ik.model.Contact": [],
-  "Ik.store.BpartnerStore": [],
-  "Ik.store.CustomerStore": [],
-  "Ik.store.LeadStore": [],
-  "Ik.store.SupplierStore": [],
+  "Ik.model.Partner": [],
+  "Ik.store.Contact": [],
+  "Ik.store.Customer": [],
+  "Ik.store.Lead": [],
+  "Ik.store.Partner": [],
+  "Ik.store.Supplier": [],
+  "Ik.view.form.ContactForm": [
+    "widget.ikContactForm"
+  ],
+  "Ik.view.form.ContactFormController": [
+    "controller.contactForm"
+  ],
   "Ik.view.form.CustomerForm": [
     "widget.ikCustomerForm"
   ],
@@ -3699,6 +3711,12 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ik.view.form.SupplierFormController": [
     "controller.supplierForm"
+  ],
+  "Ik.view.grid.ContactGrid": [
+    "widget.ikContactGrid"
+  ],
+  "Ik.view.grid.ContactGridController": [
+    "controller.contactGrid"
   ],
   "Ik.view.grid.CustomerGrid": [
     "widget.ikCustomerGrid"

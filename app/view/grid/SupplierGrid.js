@@ -5,7 +5,7 @@ Ext.define('Ik.view.grid.SupplierGrid', {
    
    requires: 'Ik.view.grid.SupplierGridController',
    
-   store: 'Ik.store.SupplierStore',
+   store: 'Ik.store.Supplier',
    
    controller: 'supplierGrid',
    

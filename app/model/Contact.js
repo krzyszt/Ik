@@ -21,7 +21,7 @@ Ext.define('Ik.model.Contact', {
         {
             name: 'partnerId',
             type: 'int',
-            reference: 'Bpartner'
+            reference: 'Partner'
         },
         {
            name: 'fullName',

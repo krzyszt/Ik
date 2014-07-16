@@ -10,10 +10,10 @@ Ext.define('Ik.view.grid.ContactGridController', {
       var me = this;
       var partnerStore;
       var contactStore = component.getStore();
-      if (!Ext.getStore('Bpartner')) {
-         partnerStore = Ext.create('Ik.store.BpartnerStore');
+      if (!Ext.getStore('Partner')) {
+         partnerStore = Ext.create('Ik.store.Partner');
       } else {
-         partnerStore = Ext.getStore('Bpartner');
+         partnerStore = Ext.getStore('Partner');
       }
 
       if (partnerStore.getTotalCount() !== 0) {

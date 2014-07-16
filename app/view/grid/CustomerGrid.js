@@ -5,7 +5,7 @@ Ext.define('Ik.view.grid.CustomerGrid', {
    
    requires: 'Ik.view.grid.CustomerGridController',
    
-   store: 'Ik.store.CustomerStore',
+   store: 'Ik.store.Customer',
    
    controller: 'customerGrid',
    

@@ -1,9 +1,9 @@
-Ext.define('Ik.store.LeadStore', {
+Ext.define('Ik.store.Lead', {
    extend: 'Ext.data.ChainedStore',
    
-   model: 'Ik.model.Bpartner',
+   model: 'Ik.model.Partner',
    
-   source: 'Ik.store.BpartnerStore',
+   source: 'Ik.store.Partner',
    
    filters: [
       {
