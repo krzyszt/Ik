@@ -1,5 +1,10 @@
 Ext.define('Ik.view.toolbar.MainToolbar', {
    extend: 'Ext.container.Container',
+   requires: [
+      'Ik.view.toolbar.MainToolbarController'
+   ],
+   controller: 'mainToolbar',
+   
    xtype: 'ikMainToolbar',
    height: 30,
    padding: '7 7 7 20',

@@ -1,6 +1,6 @@
 Ext.define('Ik.view.toolbar.GridToolbarController', {
    extend: 'Ext.app.ViewController',
-   alias: 'controller.ikGridToolbar',
+   alias: 'controller.gridToolbar',
    
    requires: [
      'Ext.form.field.ComboBox',

@@ -4,7 +4,7 @@ Ext.define('Ik.view.toolbar.GridToolbar', {
    requires: [
       'Ik.view.toolbar.GridToolbarController'
    ],
-   controller: 'ikGridToolbar',
+   controller: 'gridToolbar',
    layout: {
       type: 'hbox'
    },
