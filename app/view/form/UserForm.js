@@ -11,7 +11,7 @@ Ext.define('Ik.view.form.UserForm', {
       margin: 10,
       labelAlign: 'right'
    },
-   
+   glyph: 0xf007,
    initComponent: function() {
       var me = this;
       var store = Ext.create('Ik.store.User');

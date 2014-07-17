@@ -9,6 +9,7 @@ Ext.define('Ik.view.form.SupplierForm', {
       margin: 10,
       labelAlign: 'right'
    },
+   glyph: 0xf0d1,
    initComponent: function() {
       var me = this;
 

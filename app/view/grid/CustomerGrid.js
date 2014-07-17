@@ -6,6 +6,7 @@ Ext.define('Ik.view.grid.CustomerGrid', {
    controller: 'customerGrid',
    closable: true,
    title: 'Customers',
+   glyph: 0xf0c0,
    initComponent: function() {
       var me = this;
 

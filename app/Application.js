@@ -40,6 +40,6 @@ Ext.define('Ik.Application', {
     ],
     
     launch: function () {
-        // TODO - Launch the application
+        Ext.setGlyphFontFamily('FontAwesome');
     }
 });

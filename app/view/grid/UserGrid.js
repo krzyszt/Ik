@@ -6,8 +6,7 @@ Ext.define('Ik.view.grid.UserGrid', {
    controller: 'userGrid',
    closable: true,
    title: 'Users',
-   
-   
+   glyph: 0xf007,
    initComponent: function() {
       var me = this;
 
