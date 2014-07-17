@@ -47,15 +47,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
-                        var tab = Ext.ComponentQuery.query('ikLeadGrid')[0];
-                        if (!tab) {
-                           tab = Ext.widget('ikLeadGrid');
-                           tabs.add(tab);
-                           tabs.setActiveTab(tab);
-                        } else {
-                           tabs.setActiveTab(tab);
-                        }
+                        me.fireEvent('onAddTabToMainClick','Lead' );
                      }
                   }
                }
@@ -67,15 +59,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
-                        var tab = Ext.ComponentQuery.query('ikContactGrid')[0];
-                        if (!tab) {
-                           tab = Ext.widget('ikContactGrid');
-                           tabs.add(tab);
-                           tabs.setActiveTab(tab);
-                        } else {
-                           tabs.setActiveTab(tab);
-                        }
+                        me.fireEvent('onAddTabToMainClick','Contact' );
                      }
                   }
                }
@@ -87,15 +71,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
-                        var tab = Ext.ComponentQuery.query('ikCustomerGrid')[0];
-                        if (!tab) {
-                           tab = Ext.widget('ikCustomerGrid');
-                           tabs.add(tab);
-                           tabs.setActiveTab(tab);
-                        } else {
-                           tabs.setActiveTab(tab);
-                        }
+                        me.fireEvent('onAddTabToMainClick','Customer' );
                      }
                   }
                }
@@ -107,15 +83,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
-                        var tab = Ext.ComponentQuery.query('ikSupplierGrid')[0];
-                        if (!tab) {
-                           tab = Ext.widget('ikSupplierGrid');
-                           tabs.add(tab);
-                           tabs.setActiveTab(tab);
-                        } else {
-                           tabs.setActiveTab(tab);
-                        }
+                        me.fireEvent('onAddTabToMainClick','Supplier' );
                      }
                   }
                }
@@ -127,19 +95,11 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
-                        var tab = Ext.ComponentQuery.query('ikUserGrid')[0];
-                        if (!tab) {
-                           tab = Ext.widget('ikUserGrid');
-                           tabs.add(tab);
-                           tabs.setActiveTab(tab);
-                        } else {
-                           tabs.setActiveTab(tab);
-                        }
+                        me.fireEvent('onAddTabToMainClick','User' );
                      }
                   }
                }
-            },
+            }
          ]
 
       });
