@@ -12,6 +12,55 @@ Ext.define('Ik.view.main.MainController', {
       }
    },
    
+   routes: {
+       'leads': 'onLeads',
+       'contacts': 'onContacts',
+       'customers': 'onCustomers',
+       'suppliers': 'onSuppliers',
+       'users': 'onUsers'
+    },
+    
+    
+    
+    onLeads: function() {
+      var widgetType =  'Lead';
+      this.addGridTab(widgetType);
+      
+    },
+    onContacts: function() {
+      var widgetType =  'Contact';
+      this.addGridTab(widgetType);
+      
+    },
+    onCustomers: function() {
+      var widgetType =  'Customer';
+      this.addGridTab(widgetType);
+      
+    },
+    onSuppliers: function() {
+      var widgetType =  'Supplier';
+      this.addGridTab(widgetType);
+      
+    },
+    onUsers: function() {
+      var widgetType =  'User';
+      this.addGridTab(widgetType);
+      
+    },
+   
+   addGridTab: function(widgetType){
+      var widgetName = 'ik' + widgetType + 'Grid'; 
+      var tabs = Ext.ComponentQuery.query('ikMainTab')[0];
+      var tab = Ext.ComponentQuery.query(widgetName)[0];
+      if (!tab) {
+         tab = Ext.widget(widgetName);
+         tabs.add(tab);
+         tabs.setActiveTab(tab);
+      } else {
+         tabs.setActiveTab(tab);
+      } 
+   },
+   
     onAddTab: function(tabs, component, index, eOpts){
        tabs.setActiveTab(component);
     },

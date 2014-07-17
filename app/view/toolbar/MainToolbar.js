@@ -47,7 +47,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        me.fireEvent('onAddTabToMainClick','Lead' );
+                        me.fireEvent('onAddTabToMainClick','leads' );
                      }
                   }
                }
@@ -59,7 +59,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        me.fireEvent('onAddTabToMainClick','Contact' );
+                        me.fireEvent('onAddTabToMainClick','contacts' );
                      }
                   }
                }
@@ -71,7 +71,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        me.fireEvent('onAddTabToMainClick','Customer' );
+                        me.fireEvent('onAddTabToMainClick','customers' );
                      }
                   }
                }
@@ -83,7 +83,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        me.fireEvent('onAddTabToMainClick','Supplier' );
+                        me.fireEvent('onAddTabToMainClick','suppliers' );
                      }
                   }
                }
@@ -95,7 +95,7 @@ Ext.define('Ik.view.toolbar.MainToolbar', {
                   click: {
                      element: 'el',
                      fn: function() {
-                        me.fireEvent('onAddTabToMainClick','User' );
+                        me.fireEvent('onAddTabToMainClick','users' );
                      }
                   }
                }

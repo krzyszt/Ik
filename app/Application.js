@@ -38,6 +38,7 @@ Ext.define('Ik.Application', {
         'Ik.store.Contact',
         'Ik.store.User'
     ],
+    defaultToken : 'home',
     
     launch: function () {
         Ext.setGlyphFontFamily('FontAwesome');
