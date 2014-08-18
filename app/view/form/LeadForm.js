@@ -9,7 +9,6 @@ Ext.define('Ik.view.form.LeadForm', {
       margin: 10,
       labelAlign: 'right'
    },
-   glyph: 0xf118,
    initComponent: function() {
       var me = this;
 

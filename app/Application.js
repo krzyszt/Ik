@@ -41,6 +41,6 @@ Ext.define('Ik.Application', {
     defaultToken : 'home',
     
     launch: function () {
-        Ext.setGlyphFontFamily('FontAwesome');
+        // TODO - Launch the application
     }
 });

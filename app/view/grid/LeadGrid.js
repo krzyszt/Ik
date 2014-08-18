@@ -6,7 +6,6 @@ Ext.define('Ik.view.grid.LeadGrid', {
    controller: 'leadGrid',
    closable: true,
    title: 'Leads',
-   glyph: 0xf118,
    initComponent: function() {
       var me = this;
 

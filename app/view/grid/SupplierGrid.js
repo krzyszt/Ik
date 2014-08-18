@@ -6,7 +6,6 @@ Ext.define('Ik.view.grid.SupplierGrid', {
    controller: 'supplierGrid',
    closable: true,
    title: 'Suppliers',
-   glyph: 0xf0d1,
    initComponent: function() {
       var me = this;
 

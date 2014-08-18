@@ -34,25 +34,22 @@ Ext.define('Ik.view.toolbar.GridToolbar', {
             {
                xtype: 'button',
                text: 'New',
-               glyph: 0xf067,
-               handler: 'onNew',
-               scale: 'medium'
+               iconCls: 'fa fa-plus',
+               handler: 'onNew'
 
             },
             {
                xtype: 'button',
                text: 'Edit',
-               glyph: 0xf044,
-               handler: 'onEdit',
-               scale: 'medium'
+               iconCls: 'fa fa-edit',
+               handler: 'onEdit'
             },
             {
                xtype: 'button',
                text: 'Copy',
-               glyph: 0xf0c5,
+               iconCls: 'fa fa-copy',
 //         disabled: true, 
-               handler: 'onCopy',
-               scale: 'medium'
+               handler: 'onCopy'
             }
          ]
       });

@@ -6,7 +6,8 @@ Ext.define('Ik.view.grid.ContactGrid', {
    controller: 'contactGrid',
    closable: true,
    title: 'Contacts',
-   glyph: 0xf007,
+   
+   
    initComponent: function() {
       var me = this;
 
